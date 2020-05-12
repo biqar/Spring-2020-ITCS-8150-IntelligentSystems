@@ -1,0 +1,3 @@
+[submodule "puzzle-solver"]
+	path = puzzle-solver
+	url = https://github.com/biqar/puzzle-solver

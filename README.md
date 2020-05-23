@@ -1,6 +1,11 @@
 # Spring-2020-ITCS-8150-IntelligentSystems
 This repository contains the projects and assignments of course "ITCS 6150/8150: Intelligent Systems". This course has been taken in Spring 2020 semester, as part of my PhD degree at UNC Charlotte.
 
+## Git Clone Instruction
+This repository uses `Git submodules` to manage external dependencies. Hence, please specify the `--recursive` option while cloning the repo as follow:
+```
+git clone --recurse-submodules https://github.com/biqar/Spring-2020-ITCS-8150-IntelligentSystems.git
+```
 ## [Project 1: Solving 8-puzzle using A* search algorithm](https://github.com/biqar/puzzle-solver/tree/master/src/8-puzzle)
 
 You are to implement `A*` search algorithm and apply it to `8-puzzle` problem, using any programming language 
